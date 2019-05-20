@@ -5,7 +5,7 @@ var people = [
 ];
 var id = ''
 for (i = 0; i <= people.length ; i++){
-  id = 'ID: ' +[i][0] + ' Name: ' + people[i][1] + ' Company: ' + [i][2]
+  id = 'ID: ' +[i][0] + ' Name: ' + people[i][1] + ' Company: ' + people[i][2]
   console.log(id)
 }
 
